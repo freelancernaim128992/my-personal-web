@@ -3,14 +3,14 @@ body{
     margin: 0;
 }
 .container{
-    margin-left: 5%;
-    padding-left: 2%;
+    margin: 0px 8%;
+    padding: 0 2%;
+    overflow: hidden;
 }
 .menu{
     float: right;
-    width: 500px;
+    width: 430px;
     margin-right: 5%;
-    padding-right: 2%;
 }
 .menu ul{
     list-style: none;
@@ -25,12 +25,16 @@ body{
     font-size: 18px;
     
 }
-.half-width{
-    width: 50%;
-    word-spacing: .5px;
+.top-part{
+    overflow: hidden;
+}
+.left{
+    width: 530px;
     float: left;
-    height: 500px;
-
+}
+.right{
+    width: 530px;
+    float: right;
 }
 h1{
     font-size: 50px;
@@ -142,6 +146,7 @@ h3 {
 .address-icon {
     width: 300px;
     margin: auto;
+    overflow: hidden;
 }
 .icon {
     width: 50px;
@@ -151,4 +156,46 @@ h3 {
 
 .address {
     padding-bottom: 150px;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
+.all-box {
+    overflow: hidden;
+    margin: 0 9%;
+    margin-right: 0;
+}
+section.layoutSec h1 {
+    text-align: center;
+}
+
+section.layoutSec p {
+    text-align: center;
+}
+
+
+.lay-box {
+    width: 400px;
+    float: left;
+    margin: 33px;
+    box-shadow: 0 0 18px 10px #f2f2f2;
+}
+
+.lay-box-txt {
+    text-align: center;
+}
+.all-lay-box {
+    width: 1400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.lay-box-img {
+    width: 400px;
+    height: 250px;
+}
+section.layoutSec {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 100px;
 }
